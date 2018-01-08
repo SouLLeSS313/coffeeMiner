@@ -1,6 +1,9 @@
 # install arpspoof (dsniff)
 apt-get -y install dsniff
 
+# install arp-scan
+apt-get -y arp-scan
+ 
 # install mitmproxy
 apt-get -y install python3-dev python3-pip libffi-dev libssl-dev
 pip3 install --user mitmproxy
